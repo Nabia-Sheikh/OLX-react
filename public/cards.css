@@ -1,0 +1,46 @@
+        .card-body img {
+            width: 60%;
+            height: 200px;
+            text-align: center;
+            margin: 0 auto;
+            display: block;
+        }
+
+        .borderLeft {
+            border-left: 5px solid rgb(255, 206, 50);
+
+        }
+
+        .padd-left {
+            padding-left: 20px;
+        }
+
+        .last {
+            font-size: 11px !important;
+            text-align-last: right;
+            padding-right: 15px;
+        }
+
+        .figure.tag {
+            position: relative;
+            margin-left: 20px;
+        }
+
+        /* set the base styles all tags should use */
+        .figure.tag::before {
+            position: absolute;
+            display: block;
+            color: white;
+            padding: 0.1rem 0.5rem;
+            font-weight: normal;
+        }
+
+        /* Specific variations for different tags */
+        .figure.tag-featured::before {
+            content: "Featured";
+            background: orange;
+        }
+
+        .card:hover{
+            cursor: pointer;
+        }
